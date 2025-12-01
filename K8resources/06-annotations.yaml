@@ -7,5 +7,5 @@ metadata:
     imageregistry: "https://logging/value/jerry.aspx"
 spec:
     containers:
-      - name : ngnix
-        image: ngnix
+      - name : nginx
+        image: nginx
