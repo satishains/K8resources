@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: annotaions-demo
+  annotaions:
+    jenkins-url: "https://jenkins.joindev.preg/perf/html/link.io"
+    imageregistry: "https://logging/value/jerry.aspx"
+
+  spec:
+    containers:
+      - name : ngnix
+        image: ngnix
