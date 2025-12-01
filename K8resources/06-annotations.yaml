@@ -6,6 +6,6 @@ metadata:
     jenkins.url: "https://jenkins.joindev.preg/perf/html/link.io"
     imageregistry: "https://logging/value/jerry.aspx"
 spec:
-    containers:
-      - name : nginx
-        image: nginx
+  containers:
+    - name : nginx
+      image: nginx
