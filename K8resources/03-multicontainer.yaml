@@ -4,7 +4,6 @@ metadata:
   name: multicontainer
   labels:
     purpose: multicontainer
-
 spec:
   containers:
   - name: nginx
