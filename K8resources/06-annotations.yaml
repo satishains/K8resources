@@ -5,8 +5,7 @@ metadata:
   annotaions:
     jenkins-url: "https://jenkins.joindev.preg/perf/html/link.io"
     imageregistry: "https://logging/value/jerry.aspx"
-
-  spec:
+spec:
     containers:
       - name : ngnix
         image: ngnix
